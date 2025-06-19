@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>VSServices.Plugins</id>
+    <version>1.2.0.0</version>
+    <title>VSServices.Plugins</title>
+    <authors>VS Services</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <!-- <icon>icon.png</icon> -->
+    <projectUrl>http://project_url_here_or_delete_this_line/</projectUrl>
+    <description>VS Services Master Classes</description>
+    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <copyright>Copyright VS Services 2025</copyright>
+    <tags>C# Dll</tags>
+  </metadata>
+</package>
