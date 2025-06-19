@@ -125,3 +125,6 @@ pluginObj.Execute(plugins);
 ## 📄 License
 
 MIT License.
+
+## 📄 Nuget Package Command
+NuGet\Install-Package VSServices.Plugins -Version 1.2.0
