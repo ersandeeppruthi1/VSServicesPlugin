@@ -68,11 +68,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BasePlugin.cs" />
+    <Compile Include="ICustomPlugin.cs" />
     <Compile Include="IPlugin.cs" />
     <Compile Include="Models\EntityPlugin.cs" />
     <Compile Include="Models\QueryParameters.cs" />
     <Compile Include="Models\UserPermission.cs" />
     <Compile Include="PluginObject.cs" />
+    <Compile Include="PluginResult.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RecordInsertModel.cs" />
     <Compile Include="User.cs" />
