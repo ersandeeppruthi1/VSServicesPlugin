@@ -10,5 +10,8 @@
         public string BusinessUnitId { get; set; }
 
         public string DisplayName { get; set; }
+
+        public bool IsSystemAdministrator { get; set; }
+
     }
 }
