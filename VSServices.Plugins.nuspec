@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>VSServices.Plugins</id>
-    <version>1.8.0.0</version>
+    <version>1.9.0.0</version>
     <title>VSServices.Plugins</title>
     <authors>VS Services</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
