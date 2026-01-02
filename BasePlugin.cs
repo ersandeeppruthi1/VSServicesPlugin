@@ -36,7 +36,8 @@ namespace VSServices.Plugins
 
             // Construct the base SQL query
             string query = $"SELECT * FROM {tableName} WHERE Id = @Id";
-            query = ApplyReadPermissions(pluginObject, query, tableName);
+            if (!pluginObject.User.IsSystemAdministrator)
+                query = ApplyReadPermissions(pluginObject, query, tableName);
 
             // Execute the query and return the single record
             return ExecuteSingleRecordQuery(query, recordId, connection);

@@ -38,6 +38,8 @@ namespace VSServices.Plugins
         public string BU { get; set; }
         public string UserName { get; set; }
 
+        public User User { get; set; }
+
         public List<UserPermission> Permissions { get; set; }
 
         public void Execute(List<EntityPlugin> plugins)
